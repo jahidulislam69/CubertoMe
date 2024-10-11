@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url("https://db.onlinewebfonts.com/c/7cd33d2df7fd0d91e9d90395806eb8ff?family=Averta+CY+W10+Light");
+
 *{
     margin: 0;
     padding: 0;
-    font-family: "averta cy w10";
+    font-family: "Averta CY W10";
     box-sizing: border-box;
 }
 *::selection{
