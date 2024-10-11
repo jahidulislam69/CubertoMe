@@ -16,10 +16,10 @@ This project involves cloning a website while incorporating my unique design sty
 - **Frameworks** GSAP, ScrollTrigger, ThreeJS, SheryJs, etc.
 
 ## Website Preview
-![image](https://github.com/user-attachments/assets/40038cf9-e3e9-40af-9b29-698e36ef7078)
-![image](https://github.com/user-attachments/assets/4e8c53ec-be24-4dbc-9dfa-4d8edf000034)
-![image](https://github.com/user-attachments/assets/f89ac370-548d-4676-8a4f-01f6bd394bb7)
-![image](https://github.com/user-attachments/assets/8fe12b6d-5d25-417b-82f6-3f380b46e814)
+![image](https://github.com/user-attachments/assets/6af61f2a-ff58-4540-960b-691e57d998c4)
+![image](https://github.com/user-attachments/assets/90a17ceb-3b6e-4a0e-b722-1bdcb1917ac3)
+![image](https://github.com/user-attachments/assets/7f05063a-5bfa-4171-b4ff-d259362fc144)
+![image](https://github.com/user-attachments/assets/30b1e949-fa88-4b45-a9e9-e18c35c85ca0)
 
 ## 🏗️ Setup Instructions
 1. **Clone the Repository**
