@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "averta cy w10";
+    box-sizing: border-box;
+}
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav img{
+    width: 100px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 1.2vw;
+    letter-spacing: -1px;
+}
+#nav i{
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+
+#homemain h1{
+    font-weight: 700;
+    font-size: 1.5vw;
+    letter-spacing: -.1vw;
+}
+
+.heading{
+    display: flex;
+    gap: 32px;
+}
+
+#homemain .heading h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -4px;
+}
+#homemain .heading h1:hover{
+    color: #000;
+}
+#homelast{
+    padding: 5vh 15vw;
+
+}
+
+#homelast p{
+    width: 60%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;
+}
+
+
+#featured{
+    padding: 10vh 15vw;
+}
+.fheading> h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading > h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+
+}
+.fleftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+.fleftelem h1{
+    font-size: 2.4vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelem h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.fleftelem h4{
+    opacity: .5;
+}
+
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+
+}
+#fright .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 800;
+    letter-spacing: -1px;
+    
+}
+#btndiv button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .5s ease-in;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides {
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+footer {
+    position: relative; /* Allows absolute positioning of child elements */
+    height: 70vh; /* Sets the height of the footer */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Ensures no overflow */
+    margin-top: 20px;
+    font-family: "Spicy Rice", serif;
+}
+
+/* Background image styles */
+.imagef {
+    position: absolute; /* Positions the image to fill the footer */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    z-index: -1; /* Places the image behind other elements */
+}
+
+.imagef img {
+    width: 100%; /* Ensures the image covers full width */
+    height: 100%; /* Ensures the image covers full height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+footer h1{
+    text-align: center;
+    padding: 10vh;
+    font-size: 30px;
+    color: white;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+}
+
+/* Button styles */
+.buttonf {
+    position: relative; /* Allows the button to be positioned over the image */
+    z-index: 1; /* Ensures the button is above the image */
+    text-align: center; /* Centers the button */
+ /* Adds some padding around the button */
+}
+
+/* Button styling (optional) */
+.buttonf button {
+    padding: 3vw 4.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1.5vw;
+    font-weight: 800;
+    letter-spacing: -1px;
+    
+    
+}
+.buttonf button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s ease-in;
+    border: 2px solid #050505;
+}
+
+.botomf{
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 40px;
+}
+
+.botomf h3{
+    color: #f7f7f7;
+    font-size: 25px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+}
